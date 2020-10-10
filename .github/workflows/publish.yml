@@ -19,7 +19,7 @@ jobs:
       - name: Build 🔨
         run: |
           yarn
-          yarn run resume export cv --format html --theme elegant
+          yarn run resume export index --format html --theme elegant
       - name: Prepare deployment ⌛
         run: |
           # fetch all branches
