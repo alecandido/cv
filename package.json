@@ -1,0 +1,14 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "description": "my peronal cv",
+  "main": "index.js",
+  "repository": "https://github.com/AleCandido/cv/",
+  "author": "Alessandro Candido <candido.ale@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.13.2",
+    "jsonresume-theme-moon": "^1.7.22",
+    "resume-cli": "^2.0.0"
+  }
+}
