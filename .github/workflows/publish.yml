@@ -20,6 +20,7 @@ jobs:
         run: |
           yarn
           yarn run resume export index --format html --theme elegant
+          _utils/favicon.awk index.html > tmp; mv tmp index.html
       - name: Prepare deployment ⌛
         run: |
           # fetch all branches
