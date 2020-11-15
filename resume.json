@@ -7,7 +7,7 @@
     "email": "candido.ale@gmail.com",
     "phone": "",
     "url": "http://alecandido.github.io",
-    "summary": "I got my BSc and MSc degrees in physics from the University of Pisa, attending at the same time classes at Scuola Normale Superiore, as a selected student, and finally obtaining the Diploma di licenza. Then moved to the University of Milan as a Phd student, and a member of N3PDF team and NNPDF collaboration.",
+    "summary": "I got my BSc and MSc degrees in physics from the University of Pisa, attending at the same time classes at Scuola Normale Superiore, as a selected student, and finally obtaining the Diploma di licenza. Then moved to the University of Milan as a PhD student in perturbative QCD, and a member of N3PDF team and NNPDF collaboration.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -99,8 +99,12 @@
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Italian",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Good user"
     }
   ],
   "interests": [
