@@ -2,29 +2,29 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Alessandro Candido",
-    "label": "Programmer",
+    "label": "Theoretical Physics, PhD candidate",
     "image": "",
     "email": "candido.ale@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "phone": "",
+    "url": "http://alecandido.github.io",
+    "summary": "I got my BSc and MSc degrees in physics from the University of Pisa, attending at the same time classes at Scuola Normale Superiore, as a selected student, and finally obtaining the Diploma di licenza. Then moved to the University of Milan as a Phd student, and a member of N3PDF team and NNPDF collaboration.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Milan",
+      "countryCode": "IT",
+      "region": "Lombardia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "GitHub",
+        "username": "AleCandido",
+        "url": "https://github.com/AleCandido"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "Alessandro Candido",
+        "url": "https://www.linkedin.com/in/alessandro-candido/"
       }
     ]
   },
@@ -53,9 +53,7 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
+      "highlights": ["Awarded 'Teacher of the Month'"]
     }
   ],
   "education": [
@@ -67,10 +65,7 @@
       "startDate": "2011-06-01",
       "endDate": "2014-01-01",
       "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
     }
   ],
   "awards": [
@@ -94,20 +89,12 @@
     {
       "name": "Web Development",
       "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ]
+      "keywords": ["HTML", "CSS", "Javascript"]
     },
     {
       "name": "Compression",
       "level": "Master",
-      "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
-      ]
+      "keywords": ["Mpeg", "MP4", "GIF"]
     }
   ],
   "languages": [
@@ -119,10 +106,7 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "keywords": ["Ferrets", "Unicorns"]
     }
   ],
   "references": [
@@ -140,18 +124,11 @@
         "Built by all women team of newbie programmers",
         "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
       ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
+      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
       "startDate": "2016-08-24",
       "endDate": "2016-08-24",
       "url": "missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
+      "roles": ["Team lead", "Designer"],
       "entity": "Smoogle",
       "type": "application"
     }
