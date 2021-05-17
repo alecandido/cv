@@ -5,9 +5,10 @@
     "label": "Theoretical Physics, PhD candidate",
     "image": "",
     "email": "candido.ale@gmail.com",
+    "website": "https://annibale.dev",
     "phone": "",
     "url": "http://alecandido.github.io",
-    "summary": "I got my BSc and MSc degrees in physics from the University of Pisa, attending at the same time classes at Scuola Normale Superiore, as a selected student, and finally obtaining the Diploma di licenza. Then moved to the University of Milan as a PhD student in perturbative QCD, and a member of N3PDF team and NNPDF collaboration.",
+    "summary": "I got my BSc and MSc degrees in physics from the University of Pisa, attending at the same time classes at Scuola Normale Superiore, as a selected student, and finally obtaining the Diploma di licenza. Then I moved to the University of Milan as a PhD student in perturbative QCD, and a member of N3PDF team and NNPDF collaboration.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -31,47 +32,114 @@
   "work": [],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": ["Awarded 'Teacher of the Month'"]
+      "organization": "Department of Physics, University of Milan",
+      "position": "Teaching Assistant & Tutor",
+      "url": "http://www.fisica.unimi.it",
+      "startDate": "2020-10-01",
+      "endDate": "2021-03-01",
+      "summary": "Teaching Assistant for the Quantum Mechanic 2 class of III year students",
+      "highlights": [
+        "Remote lectures, Google Groups community, having taught myself to exercise sessions"
+      ]
+    },
+    {
+      "organization": "Department of Physics, University of Milan",
+      "position": "Teaching Assistant",
+      "url": "http://www.fisica.unimi.it",
+      "startDate": "2020-03-01",
+      "endDate": "2020-10-01",
+      "summary": "Teaching Assistant for the Quantum Mechanic 1 class of II year students",
+      "highlights": [
+        "Among the first remote courses of the pandemic era: Zoom lectures and community management through Google Groups"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
+      "institution": "University of Pisa",
+      "url": "https://www.unipi.it/",
+      "area": "(Theoretical) Physics",
+      "studyType": "Master",
+      "startDate": "2017-09-15",
+      "endDate": "2019-10-23",
+      "gpa": "29.92 / 30 - 110 / 110 cum laude",
+      "courses": []
+    },
+    {
+      "institution": "University of Pisa",
+      "url": "https://www.unipi.it/",
+      "area": "Physics",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+      "startDate": "2014-09-15",
+      "endDate": "2017-06-15",
+      "gpa": "~29 / 30 - 110 / 110 cum laude",
+      "courses": []
     }
   ],
   "awards": [],
   "publications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "Compact gauge fields on Causal Dynamical Triangulations: a 2D case study",
+      "publisher": "JHEP",
+      "releaseDate": "2021-04-19",
+      "url": "https://doi.org/10.1007/JHEP04(2021)184",
+      "summary": "Toy (2D) quantum gravity simulation with gauge fields, measuring the impact of dynamical geometry on gauge bosons and their feedback on geometry itself"
+    },
+    {
+      "name": "Can MSbar parton distributions be negative?",
+      "publisher": "JHEP",
+      "releaseDate": "2020-12-24",
+      "url": "https://doi.org/10.1007/JHEP11(2020)129",
+      "summary": "Prove of positivity of NLO PDF in the MSbar factorization scheme"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Python",
       "level": "Master",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "keywords": [
+        "Programming",
+        "Packaging",
+        "Testing",
+        "Benchmarking",
+        "Numerical Calculation",
+        "Data Analysis",
+        "Plotting"
+      ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": ["Mpeg", "MP4", "GIF"]
+      "name": "Linux",
+      "level": "Advanced",
+      "keywords": ["OS", "Shell", "Installation(s)", "Configuration/Automation"]
+    },
+    {
+      "name": "Presentations",
+      "level": "Advanced",
+      "keywords": ["Reveal.js", "Beamer", "Slipy", "Vim"]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": ["HTML", "CSS", "Javascript", "React", "GraphQL", "Deno"]
+    },
+    {
+      "name": "Document Writing",
+      "level": "Intermediate",
+      "keywords": ["Latex", "Markdown", "Pandoc", "Vim"]
+    },
+    {
+      "name": "Rust",
+      "level": "Intermediate",
+      "keywords": [
+        "Programming",
+        "Web Development - Server",
+        "Web Development - Client"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Beginner",
+      "keywords": ["Tensorflow", "Scikit-Learn", "Jupyter Notebooks", "Numpy"]
     }
   ],
   "languages": [
@@ -86,32 +154,91 @@
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "name": "Software",
+      "keywords": [
+        "HPC",
+        "Web development",
+        "Front-end",
+        "Back-end",
+        "Cloud",
+        "Distributed Applications"
+      ]
+    },
+    {
+      "name": "Books",
+      "keywords": ["Sci-fi", "Politics"]
+    },
+    {
+      "name": "Anime",
+      "keywords": [
+        "Shonen",
+        "Slice of Life",
+        "Seinen",
+        "School",
+        "Comedy",
+        "Magic",
+        "Romance",
+        "Sci-fi",
+        "Historical"
+      ]
     }
   ],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Stefano Forte",
+      "reference": "PhD supervisor: ask him"
+    },
+    {
+      "name": "Massimo D'Elia",
+      "reference": "Master thesis supervisor: ask him"
     }
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "Yadism - Yet Another DIS Module",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2019-11-01",
+      "url": "https://github.com/N3PDF/yadism",
+      "roles": ["Designer", "Developer"],
+      "entity": "University of Milan",
+      "type": "high energy physics"
+    },
+    {
+      "name": "EKO - Evolutionary Kernel Operators",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2019-11-01",
+      "url": "https://github.com/N3PDF/eko",
+      "roles": ["Designer", "Developer"],
+      "entity": "University of Milan",
+      "type": "high energy physics"
+    },
+    {
+      "name": "CDT2D - gauge fields",
+      "description": "Quantum Gravity simulations in CDT framework",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "Gauge fields introduction, measuring effect on and feedback from gravity (= geometry)",
+        "Working on graphs, invariants and topology",
+        "Dedicated Markov Chain Monte Carlo design, new moves in a Metropolis-Hastings algorithm",
+        "Master thesis project"
       ],
-      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
-      "roles": ["Team lead", "Designer"],
-      "entity": "Smoogle",
-      "type": "application"
+      "keywords": [
+        "HPC",
+        "Lattice simulation",
+        "Monte Carlo",
+        "C++",
+        "Python",
+        "Cluster"
+      ],
+      "startDate": "2018-12-20",
+      "endDate": "2019-10-23",
+      "url": "https://github.com/AleCandido/CDT_2D/",
+      "roles": ["Designer", "Developer"],
+      "entity": "University of Pisa, Scuola Normale Superiore",
+      "type": "physics simulation"
     }
   ],
   "meta": {
