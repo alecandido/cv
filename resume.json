@@ -56,6 +56,16 @@
   ],
   "education": [
     {
+      "institution": "Scuola Normale Superiore",
+      "url": "https://www.sns.it/",
+      "area": "Physics",
+      "studyType": "Diploma di Licenza",
+      "startDate": "2014-09-15",
+      "endDate": "2020-07-06",
+      "gpa": "/ - 100 / 100 cum laude",
+      "courses": []
+    },
+    {
       "institution": "University of Pisa",
       "url": "https://www.unipi.it/",
       "area": "(Theoretical) Physics",
