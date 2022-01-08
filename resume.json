@@ -32,6 +32,28 @@
   "work": [],
   "volunteer": [
     {
+      "organization": "University of Milan",
+      "position": "Tutor",
+      "url": "https://ofaonline.unimi.it/",
+      "startDate": "2021-10-01",
+      "endDate": "2022-06-30",
+      "summary": "Remote tutoring for math debt recovery, I year STEM students",
+      "highlights": ["Remote teaching", "Exams preparation", "Exams review"]
+    },
+    {
+      "organization": "Department of Physics, University of Milan",
+      "position": "Teacher",
+      "url": "https://www.annibale.dev/teaching/courses/2021/PrepMath/",
+      "startDate": "2021-09-20",
+      "endDate": "2021-09-24",
+      "summary": "One week introductory course in analysis for I year students",
+      "highlights": [
+        "Review of functions, derivatives, integrals, and vectors",
+        "Lectures website building",
+        "Lecture notes writing"
+      ]
+    },
+    {
       "organization": "Department of Physics, University of Milan",
       "position": "Teaching Assistant & Tutor",
       "url": "http://www.fisica.unimi.it",
@@ -62,7 +84,7 @@
       "studyType": "Diploma di Licenza",
       "startDate": "2014-09-15",
       "endDate": "2020-07-06",
-      "gpa": "/ - 100 / 100 cum laude",
+      "gpa": " - 100 / 100 cum laude",
       "courses": []
     },
     {
@@ -120,17 +142,26 @@
     {
       "name": "Linux",
       "level": "Advanced",
-      "keywords": ["OS", "Shell", "Installation(s)", "Configuration/Automation"]
-    },
-    {
-      "name": "Presentations",
-      "level": "Advanced",
-      "keywords": ["Reveal.js", "Beamer", "Slipy", "Vim"]
+      "keywords": ["OS", "Shell", "Configuration/Automation"]
     },
     {
       "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Svelte",
+        "SvelteKit",
+        "React",
+        "GraphQL",
+        "Deno"
+      ]
+    },
+    {
+      "name": "Presentations",
       "level": "Intermediate",
-      "keywords": ["HTML", "CSS", "Javascript", "React", "GraphQL", "Deno"]
+      "keywords": ["Reveal.js", "Beamer", "Slipy", "Vim"]
     },
     {
       "name": "Document Writing",
