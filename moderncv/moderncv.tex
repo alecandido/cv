@@ -1,0 +1,339 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Maria Luiza Linhares Dantas
+% 
+% This is an example of a very complete CV using the 'moderncv' package
+% and the 'timeline' package. For more information on those, please
+% access: 
+% https://www.ctan.org/tex-archive/macros/latex/contrib/moderntimeline
+% https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt, a4paper, sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{green} 
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}    % Width of the entire CV
+\setlength{\hintscolumnwidth}{4.1cm} % Width of the timeline on your left
+\usepackage{pdfpages/pdfpages}
+\usepackage{moderntimeline/moderntimeline}
+\usepackage{xpatch/xpatch}
+\usepackage{color, graphicx}
+\tlmaxdates{2014}{2020}              % Beggining and start of your timeline                        
+
+\newcommand{\cvreferencecolumn}[2]{%
+  \cvitem[0.8em]{}{%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
+    }%
+}
+
+\newcommand{\cvreference}[8]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{\href{mailto:#6}{\nolinkurl{#6}}}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7\newline}
+    \ifthenelse{\equal{#8}{}}{}{\mobilephonesymbol~#8}}
+
+% List of journals that I may need to use in the bibtex file 
+\def\aj{AJ}
+\def\araa{ARA\&A}
+\def\apj{ApJ}
+\def\apjl{ApJ}
+\def\apjs{ApJS}
+\def\apss{Ap\&SS}
+\def\aap{A\&A}
+\def\aapr{A\&A~Rev.}
+\def\aaps{A\&AS}
+\def\mnras{MNRAS}
+\def\pasp{PASP}
+\def\pasj{PASJ}
+\def\qjras{QJRAS}
+\def\nat{Nature}
+\def\aplett{Astrophys.~Lett.}
+\def\aas{AAS}
+\def\solphys{Solar Physics}
+\def\memsai{Mem.~Soc.~Astron.~Italiana}
+
+
+% Personal Information
+\name{Alessandro}{Candido}
+\title{\emph{Curriculum Vitae}}                              
+\address{Via Pilla 17/A}{56121 Pisa}{Italy}
+\phone[mobile]{+39~348~5653797}                   
+\email{alessandro.candido1@unimi.it}                % optional, remove / comment the line if not wanted
+%\homepage{mdastro.wix.com/maria-luiza-dantas}    % optional, remove / comment the line if not wanted
+%\social[linkedin]{https://br.linkedin.com/in/maria-luiza-linhares-dantas-56408033}  % optional, remove / comment the line if not wanted     
+%\social[twitter]{mdastro}  % optional, remove / comment the line if not wanted
+\social[github]{AleCandido}   % optional, remove / comment the line if not wanted           
+%\extrainfo{\emailsymbol \emaillink{mdantas.astro@gmail.com}}
+\photo[74pt][0.4pt]{pictures/photo.png}
+%\quote{Dubitando ad veritatem parvenimus - \emph{Cicerone}}                       
+
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+
+\begin{document}
+
+\makecvtitle
+
+\section{Educational Background}
+
+\bigskip
+
+\tlcventry{2019}{0}{PhD Perturbative QCD}{University of Milan}{Milan}{}{Worked on positivity of NLO PDFs, currently working on a new DIS library for coefficient functions calculation.}
+\cvitem{\textbf{Advisor}}{Prof. Stefano Forte}
+
+\bigskip
+
+\tlcventry{2014}{2020}{Diploma di Licenza}{Scuola Normale Superiore}{Pisa}{100/100 cum Laude}{}
+
+\bigskip
+
+\tlcventry{2017}{2019}{MSc Theoretical Physics}{University of Pisa}{Pisa}{110/110 cum Laude}{Average Grade: 29.92/30}
+
+\bigskip
+
+\tlcventry{2014}{2017}{BSc Physics}{University of Pisa}{Pisa}{110/110 cum Laude}{Average Grade: $\sim$29/30}
+
+\bigskip
+
+\section{Theses}
+
+\medskip
+
+\subsection{\textbf{MSc Thesis}}
+
+\cvitem{\textbf{Title}}{Simplicial quantum gravity with dynamical gauge fields}
+\cvitem{\textbf{Advisor}}{Prof. Massimo D'Elia}
+\cvitem{\textbf{description}}{We design an algorithm for performing numerical simulations of the quantum dynamics of both gravity and gauge fields.
+To do this we used the framework of Causal Dynamical Triangulations (CDT), that acts as an ultraviolet regulator defining the quantum dynamics of gravity on a specific kind of piece-wise linear manifold, the triangulations.
+So we introduce on these triangulations a gauge structure, generalizing the pure gravity algorithm of CDT by merging it properly with the algorithms used for static flat backgorunds, in a way independent on the dimension of triangulations.
+We also implement our algorithm and run the simulations, analyzing the outputs and comparing them with the theoretical predictions. }
+
+%\section{Research Projects}
+
+%\medskip
+
+%\subsection{\textbf{Undergraduate Research Project}}
+
+%\tlcventry{2007}{2009}{The Study of the HII Region G331.5-0.2 in the Radio Contiuum Through the Stellar Population Using the 2MASS Catalog}{}{}{}{}
+
+%\cvitem{\textbf{ADVISOR}}{Professor Zulema Abraham}
+%\cvitem{\textbf{FUNDING AGENGY}}{Conselho Nacional de Desenvolvimento Científico e Tecnológico \newline (hereafter CNPq)}
+
+%\bigskip
+
+\section{Research Interests}
+
+\cvitem{\textbf{\footnotesize{PERTURBATIVE QCD}}}{    
+    \begin{itemize}
+    \item Parton Distribution Functions
+    \item Deep Inelastic Scattering
+    \item Numerical Calculations
+    %\item DGLAP Evolution
+    \end{itemize}
+    }
+
+    \cvitem{\textbf{\footnotesize{OTHERS}}}{
+    \begin{itemize}
+    \item Asymptotic Safety
+    \item Causal Dynamical Triangulations
+    \end{itemize}
+    }
+
+
+%\section{Affiliations}
+%\subsection{Scientific}
+
+%\cvitem{\textbf{\footnotesize{BRAZIL}}}{Sociedade Astronômica Brasileira (hereafter \textbf{SAB}) \emph{(Brazilian Astronomical Society)} }
+
+%\cvitem{\textbf{\footnotesize{INTERNATIONAL ASSOCIATIONS}}}{International Astrostatistics Association (\textbf{IAA}), Cosmostatistics Initiative (\textbf{COIN}), Javalambre Physics of the Accelerating Universe (\textbf{J-PAS})}
+
+%\subsection{Other}
+%\cvitem{}{Overleaf Advisor (\url{https://www.overleaf.com/advisors})}
+%\cvitem{}{Zero Waste Bloggers Network, Inc. (non-profit organization) \newline (\url{http://zerowastebloggersnetwork.com})}
+
+\section{Languages}
+\cvitemwithcomment{Italian}{Native}{}
+
+\medskip
+
+\cvitemwithcomment{English}{Fluent, C1}{International English Language Testing System (IELTS) \\ \emph{June 2019, British Council}}
+
+\medskip
+
+\section{Skills}
+
+\cvitemwithcomment{Programming}{Python, C, C++, Fortran}{master thesis, PhD's and personal projects}
+
+\medskip
+
+\cvitemwithcomment{Documents}{\LaTeX}{university reports, master thesis, presentations}
+
+\medskip
+
+\cvitemwithcomment{Tools}{Git, GitHub, SSH, Vim, GNU/Linux}{personal and group projects, everyday experience}
+
+\medskip
+
+\cvitemwithcomment{Other Skills}{Communication, Writing}{academic activity}
+
+\bigskip
+
+\section{Teaching Experience}
+
+\medskip
+
+\subsection{Teaching Assistant}
+
+\tldatecventry{2020}{Fisica Quantistica - first half}{University of Milan}{Milan}{Italy}{Second Semester, \emph{teacher:} Stefano Forte \& Alessandro Vicini}
+%\cvitem{\textbf{FUNDING AGENCY}}{IAG-USP}
+
+\bigskip
+
+%\subsection{Outreach Projects}
+%\tlcventry{2010}{2011}{Astronomia Para Todos \emph{(Astronomy for Everybody)}}{\newline IAG-USP}{São Paulo}{Brazil}{}
+
+%\cvitem{\textbf{SUPERVISOR}}{Professor Enos Picazzio}
+
+%\cvitem{\textbf{DESCRIPTION}}{This project had as main goal to develop a book and a website in order to update and spread Astronomy topics to school teachers}
+
+%\cvitem{{\textbf{FUNDING AGENCY}}}{CNPq}
+
+%\bigskip
+
+%\subsection{Private Teaching}
+
+%\tlcventry{2007}{0}{Physics \& Mathematics}{}{}{}{Sporadic private teaching to school students (children and adolescents)}
+
+%\bigskip
+
+\section{Participation In Events}
+
+\tldatecventry{2020}{GGI lectures on the theory of fundamental interactions}{Galileo Galilei Institute for Theoretical Physics}{Florence}{Italy}{}
+
+\bigskip
+
+%\section{Event Organization}
+
+%\tldatecventry{2015}{$1^{st}$ Python Boot Camp}{IAG-USP}{São Paulo}{Brazil}{Member of the Local Organizing Committee and the Scientific Organizing Committee \\ For more information, please access the website:\\  \url{http://www.astro.iag.usp.br/~pythonbootcamp}.}
+
+%\bigskip
+
+%\tlcventry{2013}{0}{Journal Club}{IAG-USP}{S\~ao Paulo}{Brazil}{Journal Club is an initiative focused on sharing new and interesting publications and important information among graduate students and post-doctoral fellows - although, all members of the department are welcome to participate, whether as lecturers or as audience.
+%\\
+%\textbf{The main goals of Journal Club are:}
+%\begin{itemize}
+%\item To provide a friendly environment in which everyone can improve their presentation skills;
+%\item To spread the newest and most important publications in all fields of Astrophysics and correlated areas among the target audience, in order to keep everyone updated in terms of research;
+%\item To share important information and guidance about general issues regarding academia (e.g. "How to prepare for a talk?", "How to write a paper", etc.).
+%\end{itemize}
+%\medskip
+%For more information, please access our website:\\ \url{http://www.astro.iag.usp.br/~journalclub/}}
+
+%\bigskip
+
+%\section{Other Professional Experiences}
+
+%\tlcventry{2012}{0}{Freelance Translator at Gengo}{English-Portuguese}{}{see: \url{gengo.com}}{Translated for several clients such as: Airbnb, TripAdvisor, Buzzfeed, Aliexpress, among others.}
+
+%\medskip
+
+%\tldatecventry{2015}{Development of Physics Courseware Material}{Edições SM}{São Paulo}{Brazil}{Developed Physics texts, exercises, and teacher's manual to be published in Middle School books.}
+
+%\medskip
+
+%\tldatecventry{2015}{Development of Physics Courseware Material}{Oxford University Press}{São Paulo}{Brazil}{Developed Physics texts, exercises, and teacher's manual to be published in High School books.}
+
+%\medskip
+
+%\tldatecventry{2012}{Substitute Teacher}{Fundação Bradesco}{São Paulo}{Brazil}{Acted sporadically as a substitute teacher at Fundação Bradesco for High School level students.}
+
+%\medskip
+
+%\tldatecventry{2012}{Project Analyst}{Luz Engenharia Financeira}{S\~ao Paulo}{Brazil}{Implemented Risk Software for Customers - e.g. Banks and other financial institutions.}
+
+%\medskip
+
+%\tldatecventry{2011}{Trainee in Finance}{Luz Engenharia Financeira}{S\~ao Paulo}{Brazil}{Implemented Risk Software for Customers - e.g. Banks and other financial institutions.}
+
+%\medskip
+
+%\tlcventry{2010}{2011}{Computer Laboratory Tutor}{IF-USP}{São Paulo}{Brazil}{Provided guidance to undergraduate students and controlled the use of the computers}
+%\cvitem{\textbf{FUNDING AGENCY}}{IF-USP}
+
+%\bigskip
+
+%\section{Other Certificates}
+
+%\cvitem{\textbf{Programming}}{\emph{The Data Scientist’s Toolbox} \newline Johns Hopkins Bloomberg School of Public Health \& Coursera \newline \textbf{With Distinction}}
+
+%\bigskip
+
+%\cvitem{\textbf{English}}{\emph{Certificate of Proficiency in English} \newline University of Michigan}
+
+%\bigskip
+
+%\cvitem{\textbf{French}}{\emph{Diplôme Approfondi de Langue Française} (DALF) \newline Centre International d’Études Pédagogiques}
+
+%\cvitem{}{\emph{Diplôme d'Études Françaises ($2^{ème}$ degré)} \newline Université Nancy 2}
+
+%\cvitem{}{\emph{Certificat Pratique de Langue Française ($1^{er}$ degré)} \newline Université Nancy 2}
+
+%\bigskip
+
+%\cvitem{\textbf{Finance}}{\emph{Aprenda a Investir na Bolsa de Valores \newline (Learn How to Invest in the Stock Market)} \newline XP Educação}
+
+%\cvitem{}{\emph{Mercado de Ações: Conceitos e Definições \newline (Stock Market: Concepts and Definitions)} \newline Bolsa de Valores de São Paulo (hereafter BM\&F Bovespa)}
+
+%\cvitem{}{\emph{Mercados Futuros: Conceitos e Definições \newline (Future Markets: Concepts and Definitions)} \newline BM\&F Bovespa}
+
+%\cvitem{}{\emph{Matemática Financeira: Tópicos em Finanças \newline (Financial Mathematics: Topics on Finance)} \newline BM\&F Bovespa}
+
+%\cvitem{}{\emph{Mercado de Opções: Conceitos e Definições \newline (Options Market: Concepts and Definitions)} \newline BM\&F Bovespa}
+
+%\cvitem{}{\emph{Mercado de Swaps \newline (Swap Market)} \newline BM\&F Bovespa}
+
+%\bigskip
+
+%\cvitem{\textbf{Others}}{\emph{Learning How to Learn: Powerful Mental Tools to Help You Master Tough Subjects} \newline University of California, San Diego (UC San Diego) \& Coursera  \newline \textbf{With Distinction}}
+
+%\bigskip
+
+\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{publications}
+
+%\section{Invited Talks}
+
+%\tldatecventry{2016}{Is the cluster environment quenching the Seyfert activity in elliptical and spiral galaxies?}{Extragalactic Group Seminar}{IAG-USP}{S\~ao Paulo, Brazil}{}
+
+%\medskip
+
+%\tldatecventry{2015}{Astrostatistics: An Arising Field in Astrophysics}{Journal Club}{IAG-USP}{S\~ao Paulo, Brazil}{}
+
+%\medskip
+
+%\tldatecventry{2013}{An Empirical Connection Between the UV Color of Early Type Galaxies and the Stellar Initial Mass Function}{Journal Club}{IAG-USP}{S\~ao Paulo, Brazil}{}
+
+\section{References}
+
+\begin{cvcolumns}
+    \cvcolumn{Stefano Forte}{Professor \\ Physics Dept., University of Milan \\
+    Milan, Italy \\ \emailsymbol stefano.forte@mi.infn.it \\
+    }%\phonesymbol +55 11 3091 2727}
+    \cvcolumn{Massimo D'Elia}{Professor \\ Physics Dept., University of Pisa \\
+    Pisa, Italy \\ \emailsymbol massimo.delia@unipi.it }
+\end{cvcolumns}
+
+
+\clearpage
+
+
+\end{document}
+
+
