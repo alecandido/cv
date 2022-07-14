@@ -1,0 +1,60 @@
+\documentclass[10pt, a4paper, sans]{moderncv}
+
+\usepackage{cv}
+
+% Personal Information
+\name{Alessandro}{Candido}
+\title{\emph{Curriculum Vitae}}                              
+\address{Via Orbetello 2}{20132 Milano}{Italy}
+\phone[mobile]{+39~348~5653797}                   
+\homepage{annibale.dev}
+\social[linkedin]{alessandro-candido}
+%\social[twitter]{mdastro}
+\social[github]{AleCandido}
+% \email{}
+\extrainfo{}
+\photo[74pt][0.4pt]{pictures/photo.png}
+%\quote{Dubitando ad veritatem parvenimus - \emph{Cicerone}}                       
+
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+
+\begin{document}
+
+\makecvtitle
+
+\vspace*{-15pt}
+\begin{center}
+    \color{gray}
+    Università degli Studi di Milano – Dipartimento di Fisica
+
+    Via Celoria, 16, 20133 Milan, Italy
+
+    \emailsymbol \emaillink{alessandro.candido@mi.infn.it}
+    \qquad
+    \emailsymbol \emaillink{alessandro.candido@sns.it}
+    \qquad
+    iNSPIRE: \href{https://inspirehep.net/authors/1802044}{A.Candido.1}
+\end{center}
+\bigskip
+
+\input{about}
+\input{education}
+\input{research-interests}
+\input{theses}
+\input{research-projects}
+\input{languages}
+\input{skills}
+\input{teaching}
+\input{events}
+\input{visiting}
+\input{other-projects}
+\input{references}
+
+\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{publications}
+
+\clearpage
+
+\end{document}
