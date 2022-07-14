@@ -1,75 +1,18 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Author: Maria Luiza Linhares Dantas
-% 
-% This is an example of a very complete CV using the 'moderncv' package
-% and the 'timeline' package. For more information on those, please
-% access: 
-% https://www.ctan.org/tex-archive/macros/latex/contrib/moderntimeline
-% https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[10pt, a4paper, sans]{moderncv}
-\moderncvstyle{classic}
-\moderncvcolor{green} 
-\usepackage[utf8]{inputenc}
-\usepackage[scale=0.85]{geometry}    % Width of the entire CV
-\setlength{\hintscolumnwidth}{4.1cm} % Width of the timeline on your left
-\usepackage{pdfpages/pdfpages}
-\usepackage{moderntimeline/moderntimeline}
-\usepackage{xpatch/xpatch}
-\usepackage{color, graphicx}
-\tlmaxdates{2014}{2020}              % Beggining and start of your timeline                        
 
-\newcommand{\cvreferencecolumn}[2]{%
-  \cvitem[0.8em]{}{%
-    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
-    \hfill%
-    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
-    }%
-}
-
-\newcommand{\cvreference}[8]{%
-    \textbf{#1}\newline% Name
-    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
-    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
-    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
-    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
-    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{\href{mailto:#6}{\nolinkurl{#6}}}\newline}%
-    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7\newline}
-    \ifthenelse{\equal{#8}{}}{}{\mobilephonesymbol~#8}}
-
-% List of journals that I may need to use in the bibtex file 
-\def\aj{AJ}
-\def\araa{ARA\&A}
-\def\apj{ApJ}
-\def\apjl{ApJ}
-\def\apjs{ApJS}
-\def\apss{Ap\&SS}
-\def\aap{A\&A}
-\def\aapr{A\&A~Rev.}
-\def\aaps{A\&AS}
-\def\mnras{MNRAS}
-\def\pasp{PASP}
-\def\pasj{PASJ}
-\def\qjras{QJRAS}
-\def\nat{Nature}
-\def\aplett{Astrophys.~Lett.}
-\def\aas{AAS}
-\def\solphys{Solar Physics}
-\def\memsai{Mem.~Soc.~Astron.~Italiana}
-
+\usepackage{cv}
 
 % Personal Information
 \name{Alessandro}{Candido}
 \title{\emph{Curriculum Vitae}}                              
-\address{Via Pilla 17/A}{56121 Pisa}{Italy}
+\address{Via Orbetello 2}{20132 Milano}{Italy}
 \phone[mobile]{+39~348~5653797}                   
-\email{alessandro.candido1@unimi.it}                % optional, remove / comment the line if not wanted
-%\homepage{mdastro.wix.com/maria-luiza-dantas}    % optional, remove / comment the line if not wanted
-%\social[linkedin]{https://br.linkedin.com/in/maria-luiza-linhares-dantas-56408033}  % optional, remove / comment the line if not wanted     
-%\social[twitter]{mdastro}  % optional, remove / comment the line if not wanted
-\social[github]{AleCandido}   % optional, remove / comment the line if not wanted           
-%\extrainfo{\emailsymbol \emaillink{mdantas.astro@gmail.com}}
+\homepage{annibale.dev}
+\social[linkedin]{alessandro-candido}
+%\social[twitter]{mdastro}
+\social[github]{AleCandido}
+% \email{}
+\extrainfo{}
 \photo[74pt][0.4pt]{pictures/photo.png}
 %\quote{Dubitando ad veritatem parvenimus - \emph{Cicerone}}                       
 
@@ -80,83 +23,171 @@
 
 \makecvtitle
 
+\vspace*{-15pt}
+\begin{center}
+    \color{gray}
+    Università degli Studi di Milano – Dipartimento di Fisica
+
+    Via Celoria, 16, 20133 Milan, Italy
+
+    \emailsymbol \emaillink{alessandro.candido@mi.infn.it}
+    \qquad
+    \emailsymbol \emaillink{alessandro.candido@sns.it}
+\end{center}
+\bigskip
+
 \section{About}
+I am a theoretical physicist, working in the field of High Energy Phenomenology
+(hep-ph), in particular perturbative Quantum Chromodynamics (pQCD).\newline
 
-I am a theoretical physicist, working in the field of High Energy Phenomenology (hep-ph), in particular perturbative Quantum Chromodynamics (pQCD).
+I am also a software developer, both during my main occupation as physicist,
+and for my own side projects (ranging from web technologies and user
+interfaces, to more numerical and performance intensive applications).
 
-I am also a software developer, both during my main occupation as physicist, and for my own side projects (ranging from web technologies and user interfaces, to more numerical and performance intensive applications).
-I like to occasionally contribute to open source projects, giving a tiny help to the development of tools I believe to be community-relevant.
+I like to occasionally contribute to open source projects, giving a tiny help
+to the development of tools I believe to be community-relevant.
 
 \section{Educational Background}
-
 \bigskip
 
-\tlcventry{2019}{0}{PhD Perturbative QCD}{University of Milan}{Milan}{}{Worked on positivity of NLO PDFs, currently working on a new DIS library for coefficient functions calculation.}
-\cvitem{\textbf{Advisor}}{Prof. Stefano Forte}
-
+\tlcventry{2019}{0}{PhD Perturbative QCD}{University of Milan}{Milan}{}{
+Part of N3PDF team. Financed by the European Research Council through an
+Advanced Grant (n 740006).\newline
+Worked on positivity of NLO PDFs, currently working on a new DIS library for
+coefficient functions calculation.
+}
+\cvitem{\textbf{Supervisor}}{Prof. Stefano Forte}
 \bigskip
 
-\tlcventry{2014}{2020}{Diploma di Licenza}{Scuola Normale Superiore}{Pisa}{100/100 cum Laude}{}
-
+\tlcventry{2014}{2020}{Diploma di Licenza}{Scuola Normale
+            Superiore}{Pisa}{100/100 cum Laude}{}
 \bigskip
 
-\tlcventry{2017}{2019}{MSc Theoretical Physics}{University of Pisa}{Pisa}{110/110 cum Laude}{Average Grade: 29.92/30}
-
+\tlcventry{2017}{2019}{MSc Theoretical Physics}{University of
+            Pisa}{Pisa}{110/110 cum Laude}{Average Grade: 29.92/30}
 \bigskip
 
-\tlcventry{2014}{2017}{BSc Physics}{University of Pisa}{Pisa}{110/110 cum Laude}{Average Grade: $\sim$29/30}
-
+\tlcventry{2014}{2017}{BSc Physics}{University of Pisa}{Pisa}{110/110 cum
+            Laude}{Average Grade: $\sim$29/30}
 \bigskip
-
-\section{Theses}
-
-\medskip
-
-\subsection{\textbf{MSc Thesis}}
-
-\cvitem{\textbf{Title}}{Simplicial quantum gravity with dynamical gauge fields}
-\cvitem{\textbf{Advisor}}{Prof. Massimo D'Elia}
-\cvitem{\textbf{description}}{We design an algorithm for performing numerical simulations of the quantum dynamics of both gravity and gauge fields.
-To do this we used the framework of Causal Dynamical Triangulations (CDT), that acts as an ultraviolet regulator defining the quantum dynamics of gravity on a specific kind of piece-wise linear manifold, the triangulations.
-So we introduce on these triangulations a gauge structure, generalizing the pure gravity algorithm of CDT by merging it properly with the algorithms used for static flat backgorunds, in a way independent on the dimension of triangulations.
-We also implement our algorithm and run the simulations, analyzing the outputs and comparing them with the theoretical predictions. }
-
-%\section{Research Projects}
-
-%\medskip
-
-%\subsection{\textbf{Undergraduate Research Project}}
-
-%\tlcventry{2007}{2009}{The Study of the HII Region G331.5-0.2 in the Radio Contiuum Through the Stellar Population Using the 2MASS Catalog}{}{}{}{}
-
-%\cvitem{\textbf{ADVISOR}}{Professor Zulema Abraham}
-%\cvitem{\textbf{FUNDING AGENGY}}{Conselho Nacional de Desenvolvimento Científico e Tecnológico \newline (hereafter CNPq)}
-
-%\bigskip
 
 \section{Research Interests}
 
 \cvitem{\textbf{\footnotesize{PERTURBATIVE QCD}}}{    
-\begin{itemize}
-    \item Parton Distribution Functions
-    \item Deep Inelastic Scattering
-    \item Numerical Calculations
-    %\item DGLAP Evolution
-\end{itemize}
+    \begin{itemize}
+        \item Parton Distribution Functions
+        \item Deep Inelastic Scattering
+        \item DGLAP Evolution
+        \item Missing Higher Orders Uncertainties
+    \end{itemize}
+}
 
 \cvitem{\textbf{\footnotesize{COMPUTING}}}{
     \begin{itemize}
-    \item Not a bad idea
+        \item Numerical Calculations
+        \item Bayesian Methods
+        \item Multivariate Interpolation
     \end{itemize}
 }
 
 \cvitem{\textbf{\footnotesize{OTHERS}}}{
     \begin{itemize}
-    \item Asymptotic Safety
-    \item Causal Dynamical Triangulations
+        \item Asymptotic Safety
+        \item Causal Dynamical Triangulations
     \end{itemize}
 }
 
+\section{Theses}
+\medskip
+
+\subsection{\textbf{PhD Thesis}}
+
+\cvitem{\textbf{Title}}{\textit{In progress}}
+\cvitem{\textbf{Advisor}}{Prof. Stefano Forte}
+\cvitem{\textbf{description}}{
+    The overall target of the PhD has been to improve theory predictions for
+    PDF fitting in several directions: \nnnlo (evolution and \dis, original),
+    missing higher order uncertainties (\mhou, mainly based on scale
+    variations, improved), \qed evolution (reimplemented).\newline
+    Moreover, the improvement has also been an improvement in performances, and
+    in the structure of the code (as well as project management style and best
+    practices). All the projects have been (and will be) developed open
+    source.\newline
+    Other side projects have become part of the thesis, related to the main
+    software developments (and only possible because of them). Among these:
+    evidence for intrinsic charm in \nnpdf4.0 (in the appropriate 3\fns),
+    neural network interpolation of low $Q^2$ neutrino structure functions,
+    and a study of Forward-Backward asymmetry, $A_{FB}$, in the Drell-Yan
+    process.\newline
+    A complementary study of an alternative \pdf extraction technique (based on
+    a still very general parameterization, but with more analytical insight)
+    has been initiated, and it is currently in its first phase.
+}
+\bigskip
+
+\subsection{\textbf{MSc Thesis}}
+
+\cvitem{\textbf{Title}}{Simplicial quantum gravity with dynamical gauge fields}
+\cvitem{\textbf{Advisor}}{Prof. Massimo D'Elia}
+\cvitem{\textbf{description}}{
+    We designed an algorithm for performing numerical simulations of the
+    quantum dynamics of both gravity and gauge fields.
+    It has been implemented, in two space-time dimensions, in an original code.
+    Known analytical results (plus closely related ones, derived during the
+    thesis itself) have been confirmed.\newline
+    See \cdt below for more details on code and algorithm.
+}
+
+\section{Research Projects}
+\medskip
+
+\subsection{\textbf{PhD}}
+
+\tlcventry{2019}{0}{\eko: Evolutionary Kernel Operator}{}{}{}{}
+\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/eko}}
+
+\tlcventry{2019}{0}{\yadism: Yet Another DIS Module}{}{}{}{}
+\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/yadism}}
+
+\tlcventry{2020}{0}{\banana: }{}{}{}{}
+\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/banana}}
+
+\tlcventry{2020}{0}{\pineappl: }{}{}{}{}
+\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/pineappl}}
+
+\tlcventry{2021}{0}{\pineko: }{}{}{}{}
+\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/pineko}}
+
+\tlcventry{2021}{0}{\rr: }{}{}{}{}
+\cvitem{\githubsocialsymbol}{\ghurl{NNPDF/runcards}}
+
+\tlcventry{2022}{0}{\nnusf: }{}{}{}{}
+\cvitem{\githubsocialsymbol}{\ghurl{NNPDF/nnusf}}
+
+\tlcventry{2022}{0}{\nnpdf: }{}{}{}{
+    Moderate contributions to the main \nnpdf project.
+    E.g.\ fixing and improving theory covariance matrix (th covmat) generation
+    and handling, or improving pseudo-data sampling in the presence of th covmat.
+}
+\cvitem{\githubsocialsymbol}{\ghurl{NNPDF/nnusf}}
+\bigskip
+
+\subsection{\textbf{Master}}
+
+\tlcventry{2018}{2020}{\cdt: Causal Dynamical Triangulations in 2
+    dimensions}{}{}{}{
+    We adopted the framework of Causal Dynamical Triangulations (CDT). 
+    It acts essentially as an ultraviolet regulator, defining the quantum
+    dynamics of gravity on a specific kind of piece-wise linear manifold, the
+    triangulation.
+    So we introduced on these triangulations a gauge structure, generalizing the
+    pure gravity algorithm of CDT by merging it properly with the algorithms
+    used for static flat backgrounds, in a way independent on the dimension of
+    triangulations.
+    We also implement our algorithm and run the simulations, analyzing the
+    outputs and comparing them with the theoretical predictions.
+}
+\cvitem{\githubsocialsymbol}{\ghurl{AleCandido/CDT\_2D}}
 
 %\section{Affiliations}
 %\subsection{Scientific}
@@ -174,26 +205,39 @@ We also implement our algorithm and run the simulations, analyzing the outputs a
 
 \medskip
 
-\cvitemwithcomment{English}{Fluent, C1}{International English Language Testing System (IELTS) \\ \emph{June 2019, British Council}}
+\cvitemwithcomment{English}{Fluent, C1}{
+    International English Language Testing System (IELTS) \\
+    \emph{June 2019, British Council}
+}
 
 \medskip
 
 \section{Skills}
 
-\cvitemwithcomment{Programming}{Python, C, C++, Fortran}{master thesis, PhD's and personal projects}
-
+\cvitemwithcomment{Programming Languages}{
+    Python, Rust, JavaScript/TypeScript
+}{Advanced}
+\cvitemwithcomment{}{
+    Go, Shell, Fortran, C, C++
+}{Moderate experience}
 \medskip
 
-\cvitemwithcomment{Documents}{\LaTeX}{university reports, master thesis, presentations}
-
+\cvitemwithcomment{Documents \& Markup}{
+    \LaTeX, HTML + CSS (Web), Markdown/ReStructuredText
+}{}
 \medskip
 
-\cvitemwithcomment{Tools}{Git, GitHub, SSH, Vim, GNU/Linux}{personal and group projects, everyday experience}
-
+\cvitemwithcomment{Tools}{
+    Git, GitHub (\& similar), 
+}{}
 \medskip
 
-\cvitemwithcomment{Other Skills}{Communication, Writing}{academic activity}
-
+\cvitemwithcomment{Further Software}{
+    GNU/Linux
+}{}
+\cvitemwithcomment{}{
+    Glimpse (i.e.\ GIMP), Inkscape
+}{}
 \bigskip
 
 \section{Teaching Experience}
@@ -226,7 +270,29 @@ We also implement our algorithm and run the simulations, analyzing the outputs a
 
 \section{Participation In Events}
 
-\tldatecventry{2020}{GGI lectures on the theory of fundamental interactions}{Galileo Galilei Institute for Theoretical Physics}{Florence}{Italy}{}
+\tldatecventry{2022}{ICHEP}{}{Bologna}{Italy}{}
+
+\tldatecventry{2022}{DIS Conference}{}{Santiago De Compostela}{Spain}{}
+
+\tldatecventry{2022}{NNPDF winter meeting}{Vrije Universiteit}{Amsterdam}{Netherlands}{}
+
+\tldatecventry{2021}{NNPDF summer meeting}{}{Gargnano}{Italy}{}
+
+\tldatecventry{2020}{CERN-Fermilab summer school}{}{}{Online}{}
+
+\tldatecventry{2020}{NNPDF winter meeting}{Vrije Universiteit}{Amsterdam}{Netherlands}{}
+
+\tldatecventry{2020}{GGI lectures on the theory of fundamental interactions}{
+    Galileo Galilei Institute for Theoretical Physics
+}{Florence}{Italy}{}
+
+\tldatecventry{2019}{NNPDF summer meeting}{}{Varenna}{Italy}{}
+
+\bigskip
+
+\section{Visiting}
+
+\tldatecventry{2022}{\nnusf kick start}{VU - NikHef}{Amsterdam}{Netherlands}{}
 
 \bigskip
 
@@ -332,6 +398,20 @@ We also implement our algorithm and run the simulations, analyzing the outputs a
 
 %\tldatecventry{2013}{An Empirical Connection Between the UV Color of Early Type Galaxies and the Stellar Initial Mass Function}{Journal Club}{IAG-USP}{S\~ao Paulo, Brazil}{}
 
+\section{Side Projects}
+
+\tlcventry{2020}{2021}{\slipy: }{}{}{}{
+    Improve user experience (UX - in this case close to \enquote{developer
+    experience}) adding a Python framework on top of the great \revealjs slides
+    machinery.
+}
+\cvitem{\githubsocialsymbol}{\ghurl{AleCandido/slipy}}
+
+\tlcventry{2021}{0}{\showjs: }{}{}{}{
+    \slipy reboot with modern technologies and extra features.
+}
+\cvitem{\githubsocialsymbol}{\ghurl{AleCandido/show}}
+
 \section{References}
 
 \begin{cvcolumns}
@@ -347,5 +427,3 @@ We also implement our algorithm and run the simulations, analyzing the outputs a
 
 
 \end{document}
-
-

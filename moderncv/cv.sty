@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Maria Luiza Linhares Dantas
+% 
+% This is an example of a very complete CV using the 'moderncv' package
+% and the 'timeline' package. For more information on those, please
+% access: 
+% https://www.ctan.org/tex-archive/macros/latex/contrib/moderntimeline
+% https://www.ctan.org/tex-archive/macros/latex/contrib/moderncv
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage[utf8]{inputenc}
+
+\RequirePackage{moderntimeline/moderntimeline}
+
+\moderncvstyle{classic}
+\moderncvcolor{green} 
+% Beginning and start of your timeline
+\newcounter{endyear}
+\setcounter{endyear}{\year}
+\addtocounter{endyear}{1}
+\tlmaxdates{2014}{\arabic{endyear}}
+
+% Width of the entire CV
+\RequirePackage[scale=0.85]{geometry}
+% Width of the timeline on your left
+\setlength{\hintscolumnwidth}{4.1cm} 
+\RequirePackage{pdfpages/pdfpages}
+\RequirePackage{xpatch/xpatch}
+\RequirePackage{color, xcolor, graphicx}
+\RequirePackage{csquotes}
+
+\newcommand{\ghurl}[1]{\href{https://github.com/#1}{\texttt{#1}}\xspace}
+
+\RequirePackage{xparse}
+\RequirePackage{xspace}
+
+\newcommand{\cdt}{{\ttfamily CDT2D}\xspace}
+\newcommand{\nnpdf}{{\ttfamily NNPDF}\xspace}
+\newcommand{\eko}{{\ttfamily EKO}\xspace}
+\newcommand{\yadism}{{\ttfamily yadism}\xspace}
+\newcommand{\banana}{{\ttfamily banana}\xspace}
+\newcommand{\pineappl}{{\ttfamily PineAPPL}\xspace}
+\newcommand{\pineko}{{\ttfamily PinEKO}\xspace}
+\newcommand{\rr}{{\ttfamily runcards}\xspace}
+\newcommand{\nnusf}{{\ttfamily N$\nu$SF}\xspace}
+
+\newcommand{\nnnlo}{{\small N$^3$LO}\xspace}
+\newcommand{\mhou}{{\small MHOU}\xspace}
+\newcommand{\qed}{{\small QED}\xspace}
+\newcommand{\dis}{{\small DIS}\xspace}
+\newcommand{\fns}{{\small FNS}\xspace}
+\newcommand{\pdf}{{\small PDF}\xspace}
+
+\newcommand{\revealjs}{{\ttfamily reveal.js}\xspace}
+\newcommand{\slipy}{{\ttfamily slipy}\xspace}
+\newcommand{\showjs}{{\ttfamily show}\xspace}
