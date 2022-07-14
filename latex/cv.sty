@@ -20,6 +20,8 @@
 \addtocounter{endyear}{1}
 \tlmaxdates{2014}{\arabic{endyear}}
 
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
 % Width of the entire CV
 \RequirePackage[scale=0.85]{geometry}
 % Width of the timeline on your left
@@ -28,31 +30,3 @@
 \RequirePackage{xpatch/xpatch}
 \RequirePackage{color, xcolor, graphicx}
 \RequirePackage{csquotes}
-
-\newcommand{\ghurl}[1]{\href{https://github.com/#1}{\texttt{#1}}\xspace}
-
-\RequirePackage{xparse}
-\RequirePackage{xspace}
-
-\newcommand{\cdt}{{\ttfamily CDT2D}\xspace}
-\newcommand{\nnpdf}{{\ttfamily NNPDF}\xspace}
-\newcommand{\eko}{{\ttfamily EKO}\xspace}
-\newcommand{\yadism}{{\ttfamily yadism}\xspace}
-\newcommand{\banana}{{\ttfamily banana}\xspace}
-\newcommand{\pineappl}{{\ttfamily PineAPPL}\xspace}
-\newcommand{\pineko}{{\ttfamily PinEKO}\xspace}
-\newcommand{\rr}{{\ttfamily runcards}\xspace}
-\newcommand{\nnusf}{{\ttfamily N$\nu$SF}\xspace}
-\newcommand{\mcpdf}{{\ttfamily MCPDF}\xspace}
-
-\newcommand{\nnnlo}{{\small N$^3$LO}\xspace}
-\newcommand{\mhou}{{\small MHOU}\xspace}
-\newcommand{\qed}{{\small QED}\xspace}
-\newcommand{\dis}{{\small DIS}\xspace}
-\newcommand{\fns}{{\small FNS}\xspace}
-\newcommand{\pdf}{{\small PDF}\xspace}
-\newcommand{\dglap}{{\small DGLAP}\xspace}
-
-\newcommand{\revealjs}{{\ttfamily reveal.js}\xspace}
-\newcommand{\slipy}{{\ttfamily slipy}\xspace}
-\newcommand{\showjs}{{\ttfamily show}\xspace}
