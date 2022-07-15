@@ -5,10 +5,10 @@
 
 % Additional packages
 \usepackage{multicol}
-\usepackage{blindtext}
 \usepackage{fancyhdr}
 
 % Define lengths
+\newgeometry{top=2.5em,bottom=6em,left=4em,right=4em}
 \setlength{\columnsep}{1cm}
 \setlength{\hintscolumnwidth}{10ex}
 
@@ -19,11 +19,13 @@
 \begin{document}
 
 \makecvtitle
+\vspace*{-1em}
 
 \fancyfoot[LF]{
     \color{gray}
     \emailsymbol \emaillink{alessandro.candido@sns.it}
 }
+\fancyfoot[RF]{}
 
 My research is mainly focused on synergies between Software and Statistics on
 one side (possibly including other branches of applied Math), and Physics on
@@ -45,6 +47,7 @@ interfaces, as much as orchestrating the community efforts.
 \input{cdt}
 
 \end{multicols}
+\vspace*{-2em}
 
 \end{document}
 
