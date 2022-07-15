@@ -1,0 +1,43 @@
+\section{SM Theory Predictions}
+
+
+\mhl{frameworks} The first part of PhD has been dedicated to develop
+extensible frameworks, dedicated to solve specific problems (like \dglap
+evolution and \dis predictions), collecting together decades of progresses in
+perturbative \qcd calculations.
+
+Similar tools were already existing, but they were lacking the purpose of being
+open to the community, and to possible extensions in the most straightforward
+way.
+As explained above, this is the bigger target I aimed for with my collaborators
+(together with several smaller and more direct improvements).
+\newline
+
+\mhl{interfaces} It is even better demonstrated by the latter part of PhD
+project: the construction of a streamlined theory pipeline to produce efficient
+theory predictions for \pdf fitting.
+
+This is one of the best environment to showcase the abstract concepts expressed
+before: doing a \pdf fit requires a lot of different inputs, from theory
+(several projects predictions, possibly resummation, an \pdf evolution) and
+experiments (common interface to experimental data, and suitable covariances
+intra- and inter-dataset).
+
+Going more in depth on theory: many analytical calculations need to be
+performed, and their results have to be collected inside programs.
+It is rather limiting and naive to consider only the case in which a single
+program is able to dispatch results for all processes at all available orders,
+so to implement all the available calculations.
+
+Thus, the more refined way to deal with the problem is not to enforce a single
+provider, but to define a clean interface that different providers can adopt.
+In the case of theory calculation, this goal is very well achieved by
+interpolation grids, and in our case in particular by the \pineappl format, and
+the same name library backing it.
+\newline
+
+Applying common interfaces leave enough freedom to experiment new solutions,
+still taking part to community efforts. Without them, it would hard and
+impossible to face the complex challenges of \hep, but imposing a single and
+unique direction is not a viable alternative, since individual creativity is an
+important ingredient in research.
