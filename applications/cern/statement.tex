@@ -3,10 +3,14 @@
 \usepackage{../../latex/cv}
 \usepackage{../../latex/defs}
 
+% Additional packages
 \usepackage{multicol}
-\setlength{\columnsep}{1cm}
-
 \usepackage{blindtext}
+\usepackage{fancyhdr}
+
+% Define lengths
+\setlength{\columnsep}{1cm}
+\setlength{\hintscolumnwidth}{10ex}
 
 \name{Research}{Statement}
 \title{Alessandro Candido}
@@ -14,15 +18,19 @@
 
 \begin{document}
 
-\setlength{\hintscolumnwidth}{10ex}
-
 \makecvtitle
 
-\blindtext
+\fancyfoot[LF]{
+    \color{gray}
+    \emailsymbol \emaillink{alessandro.candido@sns.it}
+}
+
+My research is mainly focused on synergies between Software and Math on one
+side and Physics, especially High Energy Physics on the other
 
 \begin{multicols}{2}
 
-\section{Introduction}
+\section{Parton Density Functions}
 \blindtext\blindtext
 
 \section{Ciao}
@@ -31,7 +39,7 @@
 \section{Come va?}
 \blindtext\blindtext
 
-\section{Parton Density Functions}
+\section{Introduction}
 \blindtext\blindtext
 \blindtext\blindtext
 
