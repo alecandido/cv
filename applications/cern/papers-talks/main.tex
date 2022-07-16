@@ -1,0 +1,109 @@
+\documentclass[10pt, a4paper, sans]{moderncv}
+
+\usepackage{../../../latex/cv}
+\usepackage{../../../latex/defs}
+
+% Additional packages
+\usepackage{multicol}
+\usepackage{fancyhdr}
+
+% Define lengths
+\setlength{\columnsep}{1cm}
+\setlength{\hintscolumnwidth}{10ex}
+
+\newcommand{\journal}[4]{\textit{#1} \textbf{#2} (#3) #4}
+\newcommand{\doi}[1]{\texttt{\href{https://doi.org/#1}{doi:#1}}}
+\newcommand{\arxiv}[2]{\texttt{\href{https://arxiv.org/abs/#1}{arXiv:#1}} [#2]}
+\newcommand{\tturl}[1]{\texttt{\url{#1}}}
+
+\name{Alessandro}{Candido}
+\title{Papers \& talks}
+
+\begin{document}
+
+\fancyfoot[LF]{
+    \color{gray}
+    \emailsymbol \emaillink{alessandro.candido@sns.it}
+}
+\fancyfoot[RF]{}
+
+As requested by the job description, following are listed \enquote{The
+three most important publications to which you have made a significant
+contribution} and \enquote{Three international conferences or workshops at
+which you have given presentations}.
+
+They are sorted from the most recent to the oldest.
+
+\begin{multicols}{2}
+
+\section{Publications}
+
+\begin{enumerate}
+    \item \textbf{Evidence for intrinsic charm quarks in the proton},
+      R.~D.~Ball, A.~Candido, J.~Cruz-Martinez, S.~Forte, T.~Giani, F.~Hekhorn,
+      K.~Kudashkin, G.~Magni, J.~Rojo, 
+      \journal{Nature}{???}{???}{???},
+      \arxiv{2208.???}{hep-ph},
+      \doi{???}
+      \newline
+      Presenting evidence for intrinsic charm in the \nnpdf4.0 \pdf set,
+      extracted using \eko and its backward evolution feature, that is able to
+      evolve downward the \pdf in factorization scale, taking proper care of
+      matching between different flavor number schemes, including intrinsic
+      contributions.
+    \item \textbf{Compact gauge fields on Causal Dynamical Triangulations: a 2D
+      case study},
+      A.~Candido, G.~Clemente, M.~D'Elia, F.~Rottoli,
+      \journal{JHEP}{04}{2021}{184},
+      \arxiv{2010.15714}{hep-lat},
+      \doi{10.1007/JHEP04(2021)184} 
+      \newline
+      Designing a new algorithm to introduce lattice gauge fields in a
+      dynamical space-time. The framework adopted to describe quantum nature of
+      space-time is the Causal Dynamical Triangulations ({\small CDT}) one.
+      The algorithm is general with respect to the gauge fields group and
+      space-time dimension.
+      A benchmark implementation is presented, in two dimension for $U(1)$ and
+      $SU(2)$ gauge fields, which exhibit analytically predicted properties,
+      and showcases possible directions to improve flat space lattice simulations.
+    \item \textbf{Can $ \overline{\mathrm{MS}} $ parton distributions be negative?}
+      A.~Candido, S.~Forte, F.~Hekhorn,
+      \journal{JHEP}{11}{2020}{129},
+      \arxiv{2006.07377}{hep-ph},
+      \doi{10.1007/JHEP11(2020)129}
+      \newline
+      Discussing the problem of \pdf positivity in $\overline{MS}$ scheme. In
+      order to investigate it, the behavior of the partonic cross-sections is
+      analyzed, together with the change of scheme from a factorization scheme
+      in which \pdf{}s are positive by definition (because linked to physical
+      observables).
+\end{enumerate}
+
+\columnbreak
+
+\section{Conferences}
+
+\begin{enumerate}
+    \item \textbf{Machine Learning @ GGI}
+      ???,
+      \tturl{???}
+    \item \textbf{ISMD 2022},
+      ???,
+      \tturl{???}
+    \item \textbf{ICHEP 2022}, 
+      EKO and yadism: theory predictions for PDF fitting,
+      \tturl{https://agenda.infn.it/event/28874/abstracts/20280/}
+      \newline
+      \eko and \yadism have been presented to the general public of high energy
+      physicists, together with the whole pipeline they are integrated in, as a
+      way to compute streamlined fast theory predictions, with the main target
+      of \pdf fits and other analyses (but the individual tools can do more).
+      The \textit{evidence for intrinsic charm} in the proton is presented as
+      an early example of the success of these tools to produce original
+      physics.
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
+
