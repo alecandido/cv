@@ -1,17 +1,19 @@
 \section{SM Theory Predictions}
 
 
-\mhl{frameworks} The first part of PhD has been dedicated to develop
+\mhl{frameworks} The first part of my PhD project has been dedicated to develop
 extensible frameworks, dedicated to solve specific problems (like \dglap
-evolution and \dis predictions), collecting together decades of progresses in
-perturbative \qcd calculations.
+evolution and NNLO \dis predictions), collecting together decades of progresses
+in perturbative \qcd calculations and making them available to the wider
+community.
 
-Similar tools were already existing, but they were lacking the purpose of being
-open to the community, and to possible extensions in the most straightforward
-way.
+Similar applications were already existing, but they were lacking the purpose
+of being open to the community, and to possible extensions in the most
+straightforward way.
 As explained above, this is the bigger target I aimed for with my collaborators
-(together with several smaller and more direct improvements).
-\newline
+(these tools have also enabled the most precise to date determination of
+intrinsic charm).
+\bigskip
 
 \mhl{interfaces} It is even better demonstrated by the latter part of PhD
 project: the construction of a streamlined theory pipeline to produce efficient
@@ -19,7 +21,7 @@ theory predictions for \pdf fitting.
 
 This is one of the best environment to showcase the abstract concepts expressed
 before: doing a \pdf fit requires a lot of different inputs, from theory
-(several projects predictions, possibly resummation, an \pdf evolution) and
+(predictions for many processes, possibly resummation, and \pdf evolution) and
 experiments (common interface to experimental data, and suitable covariances
 intra- and inter-dataset).
 
@@ -34,10 +36,14 @@ provider, but to define a clean interface that different providers can adopt.
 In the case of theory calculation, this goal is very well achieved by
 interpolation grids, and in our case in particular by the \pineappl format, and
 the same name library backing it.
-\newline
+\bigskip
 
 Applying common interfaces leave enough freedom to experiment new solutions,
 still taking part to community efforts. Without them, it would hard and
 impossible to face the complex challenges of \hep, but imposing a single and
 unique direction is not a viable alternative, since individual creativity is an
 important ingredient in research.
+
+An already successful effort in this direction has been the design of a common
+format for \pdf exchange, \lhapdf. Different groups can extract \pdf{}s with very
+different approaches, but a consumer can use any of them in the very same way.
