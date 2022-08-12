@@ -1,7 +1,12 @@
-PAPER=moderncv
+DOCUMENT=cv
 
-all: $(PAPER).pdf
+all: $(DOCUMENT).pdf
 
-%.pdf: %.tex
-	latexmk $<
+$(DOCUMENT).pdf: main.tex
+	latexmk --jobname=$(basename $@) --pdf $<
 
+view:
+	open $(DOCUMENT).pdf
+
+clean:
+	latexmk -c
