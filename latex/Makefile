@@ -3,7 +3,7 @@ DOCUMENT=cv
 all: $(DOCUMENT).pdf
 
 $(DOCUMENT).pdf: main.tex
-	latexmk --jobname=$(basename $@) --pdf $<
+	latexmk --jobname=$(basename $@) --pdflua $<
 
 view:
 	open $(DOCUMENT).pdf
