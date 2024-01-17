@@ -23,6 +23,7 @@ jobs:
         run: |
           pnpm install
           pnpm render
+          mv resume.html index.html
           # include favicon reference in generated html
           mkdir out
           _utils/favicon.awk index.html > out/index.html
