@@ -21,7 +21,7 @@ jobs:
           version: 8
       - name: Build 🔨
         run: |
-          pnpm
+          pnpm install
           pnpm render
           # include favicon reference in generated html
           mkdir out
