@@ -6,8 +6,15 @@
   "repository": "https://github.com/AleCandido/cv/",
   "author": "Alessandro Candido <candido.ale@gmail.com>",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "render": "resumed render --theme jsonresume-theme-elegant",
+    "export": "node export.js"
+  },
   "dependencies": {
     "jsonresume-theme-elegant": "^1.16.1",
-    "resume-cli": "^3.0.8"
+    "jsonresume-theme-even": "^0.22.0",
+    "puppeteer": "^21.7.0",
+    "resumed": "^3.0.1"
   }
 }
