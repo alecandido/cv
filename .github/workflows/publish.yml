@@ -11,15 +11,15 @@ jobs:
 
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Node 🧶
-        uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@v4
         with:
-          node-version: "10"
+          node-version: "20"
       - name: Build 🔨
         run: |
-          yarn
-          yarn run resume export index --format html --theme elegant
+          pnpm
+          pnpm render
           # include favicon reference in generated html
           mkdir out
           _utils/favicon.awk index.html > out/index.html
