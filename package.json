@@ -7,8 +7,7 @@
   "author": "Alessandro Candido <candido.ale@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jsonresume-theme-elegant": "^1.13.2",
-    "jsonresume-theme-moon": "^1.7.22",
-    "resume-cli": "^2.0.0"
+    "jsonresume-theme-elegant": "^1.16.1",
+    "resume-cli": "^3.0.8"
   }
 }
