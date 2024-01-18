@@ -10,31 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Node 🧶
+      - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - name: Build 🔨
+      - name: Build webpage
         run: |
           pnpm install
           pnpm render
-          mv resume.html index.html
           # include favicon reference in generated html
           mkdir out
-          _utils/favicon.awk index.html > out/index.html
-          rm -f index.html
-      - name: Prepare deployment ⌛
+          _utils/favicon.awk resume.html > out/index.html
+      - name: Build PDF
+        run: |
+          pnpm export
+          mv resume.pdf out/
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDF
+          path: resume.pdf
+      - name: Prepare deployment
         run: |
           # fetch all branches
           git fetch --depth=1
           git checkout gh-pages
           mv out/index.html index.html; rm -rf out
-      - name: Deploy 🚀
+      - name: Deploy
         uses: EndBug/add-and-commit@v4.4.0
         with:
           message: "Automatically deploying: ${{ github.ref }} 🚀"
