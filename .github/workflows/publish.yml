@@ -29,18 +29,20 @@ jobs:
       - name: Build PDF
         run: |
           pnpm export
-          cp resume.pdf out/
+          mv resume.pdf out/
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: PDF
-          path: resume.pdf
+          path: out/resume.pdf
       - name: Prepare deployment
         run: |
           # fetch all branches
           git fetch --depth=1
           git checkout gh-pages
-          mv out/index.html index.html; rm -rf out
+          # replace with new output
+          mv out/* .
+          rm -rf out
       - name: Deploy
         uses: EndBug/add-and-commit@v4.4.0
         with:
