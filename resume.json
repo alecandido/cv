@@ -7,7 +7,7 @@
     "email": "candido.ale@gmail.com",
     "website": "https://annibale.dev",
     "phone": "",
-    "summary": "I am a theoretical physicist, working in the field of High Energy Phenomenology (hep-ph), in particular perturbative Quantum Chromodynamics (pQCD). I am also a software developer, both during my main occupation as physicist, and for my own side projects (ranging from web technologies and user interfaces, to more numerical and performance intensive applications). I enjoy applying what I learn, about new tools and frameworks, to improve several aspects of my research projects (and side projects as well). I like contributing to open source projects, participating in the development of tools I believe to be community-relevant, joining the related discussions, and helping other users in the usage.",
+    "summary": "My PhD has been in the field of perturbative Quantum Chromodynamics (pQCD), focused on extracting the proton and nuclear structure from several accelerators data (integrating data set ranging from SLAC to LHC), by usage of a dedicated methodology developed by the collaboration I have been part of, based on neural networks, and modern machine learning techniques. After that, my interest shifted towards the field of quantum computing, getting involved as a core developer of Qibo, a full-stack quantum framework, with its own algorithmic language, simulation and hardware execution capabilities (currently tailored for superconducting qubits). Qibo is developed by an international collaboration, and aiming to support more and more academic laboratories by providing a flexible middleware platform.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -104,7 +104,14 @@
     {
       "name": "Python",
       "level": "Master",
-      "keywords": ["Packaging", "Testing", "Data Analysis", "Plotting"]
+      "keywords": [
+        "Packaging",
+        "Testing",
+        "Data Analysis",
+        "Plotting",
+        "Compiled extensions",
+        "JIT"
+      ]
     },
     {
       "name": "Quantum Computing",
@@ -167,7 +174,7 @@
   "projects": [
     {
       "name": "Qibocal",
-      "description": "",
+      "description": "Quantum calibration, characterization and validation module. It encodes the routines required to calibrate a superconducting chip, together with a wider infrastructure for combining them into automated calibration procedures.",
       "highlights": [],
       "keywords": [],
       "startDate": "2023-01-01",
@@ -178,7 +185,7 @@
     },
     {
       "name": "Qibolab",
-      "description": "",
+      "description": "Abstract the hardware specific details, providing a higher level interface to run circuits and pulse sequences on heterogeneous qubit platforms.",
       "highlights": [],
       "keywords": [],
       "startDate": "2023-01-01",
@@ -200,7 +207,7 @@
     },
     {
       "name": "Pineline",
-      "description": "",
+      "description": "Streamline the computation of theory predictions required for PDF fitting, creating a modular framework that allows integration of diverse providers.",
       "highlights": [],
       "keywords": [],
       "startDate": "2021-01-01",
@@ -212,7 +219,7 @@
     },
     {
       "name": "PineAPPL - PineAPPL is not an extension of APPL",
-      "description": "",
+      "description": "Define and manage a predictions storage format (interpolation grids), suitable for the output of many Monte Carlo generators.",
       "highlights": [],
       "keywords": [],
       "startDate": "2021-01-01",
@@ -224,7 +231,7 @@
     },
     {
       "name": "Yadism - Yet Another DIS Module",
-      "description": "",
+      "description": "Compute Deep Inelastic Scattering (DIS) predictions for a wide variety of observables and settings, providing predictions for a large set of experiments.",
       "highlights": [],
       "keywords": [],
       "startDate": "2019-11-01",
@@ -236,7 +243,7 @@
     },
     {
       "name": "EKO - Evolutionary Kernel Operators",
-      "description": "",
+      "description": "Precompute DGLAP evolution kernel operators for fast and reusable predictions.",
       "highlights": [],
       "keywords": [],
       "startDate": "2019-11-01",
