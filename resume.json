@@ -33,7 +33,25 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "CERN theory department",
+      "position": "Research fellow",
+      "url": "%",
+      "startDate": "2023-10-02",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "INFN - sezione di Milano",
+      "position": "Assegnista di ricerca (postdoc)",
+      "url": "https://www.mi.infn.it/it/",
+      "startDate": "2023-04-03",
+      "endDate": "2023-10-01",
+      "summary": "",
+      "highlights": []
+    }
+  ],
   "education": [
     {
       "institution": "Università degli Studi di milano",
