@@ -2,19 +2,18 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Alessandro Candido",
-    "label": "Theoretical Physics, PhD candidate",
+    "label": "Physicist, PhD",
     "image": "",
     "email": "candido.ale@gmail.com",
     "website": "https://annibale.dev",
     "phone": "",
-    "url": "http://alecandido.github.io",
     "summary": "I am a theoretical physicist, working in the field of High Energy Phenomenology (hep-ph), in particular perturbative Quantum Chromodynamics (pQCD). I am also a software developer, both during my main occupation as physicist, and for my own side projects (ranging from web technologies and user interfaces, to more numerical and performance intensive applications). I enjoy applying what I learn, about new tools and frameworks, to improve several aspects of my research projects (and side projects as well). I like contributing to open source projects, participating in the development of tools I believe to be community-relevant, joining the related discussions, and helping other users in the usage.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Milan",
-      "countryCode": "IT",
-      "region": "Lombardia"
+      "city": "Geneva",
+      "countryCode": "CH",
+      "region": ""
     },
     "profiles": [
       {
@@ -26,10 +25,247 @@
         "network": "LinkedIn",
         "username": "Alessandro Candido",
         "url": "https://www.linkedin.com/in/alessandro-candido/"
+      },
+      {
+        "network": "Telegram",
+        "username": "candidoale",
+        "url": "https://t.me/candidoale"
       }
     ]
   },
   "work": [],
+  "education": [
+    {
+      "institution": "Università degli Studi di milano",
+      "url": "https://www.unimi.it/",
+      "area": "Physics",
+      "studyType": "PhD",
+      "startDate": "2019-10-15",
+      "endDate": "2023-01-15",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Scuola Normale Superiore",
+      "url": "https://www.sns.it/",
+      "area": "Physics",
+      "studyType": "Diploma di Licenza",
+      "startDate": "2014-09-15",
+      "endDate": "2020-07-06",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Pisa",
+      "url": "https://www.unipi.it/",
+      "area": "Theoretical Physics",
+      "studyType": "Master",
+      "startDate": "2017-09-15",
+      "endDate": "2019-10-23",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Pisa",
+      "url": "https://www.unipi.it/",
+      "area": "Physics",
+      "studyType": "Bachelor",
+      "startDate": "2014-09-15",
+      "endDate": "2017-06-15",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "iNSPIRE",
+      "publisher": "list",
+      "releaseDate": "",
+      "url": "https://inspirehep.net/authors/1802044",
+      "summary": ""
+    },
+    {
+      "name": "ORCiD",
+      "publisher": "list",
+      "releaseDate": "",
+      "url": "https://orcid.org/0000-0002-1405-3205",
+      "summary": ""
+    },
+    {
+      "name": "Google Scholar",
+      "publisher": "list",
+      "releaseDate": "",
+      "url": "https://scholar.google.com/citations?user=ZX5fxxYAAAAJ",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": ["Packaging", "Testing", "Data Analysis", "Plotting"]
+    },
+    {
+      "name": "Quantum Computing",
+      "level": "Advanced",
+      "keywords": ["Simulation", "Control", "Calibration", "Superconducting"]
+    },
+    {
+      "name": "Linux",
+      "level": "Advanced",
+      "keywords": ["OS", "Shell", "Configuration/Automation"]
+    },
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "Svelte",
+        "SvelteKit",
+        "React"
+      ]
+    },
+    {
+      "name": "Rust",
+      "level": "Intermediate",
+      "keywords": ["Data", "CLI", "async"]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Intermediate",
+      "keywords": ["Tensorflow", "JAX", "Scikit-learn"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient user"
+    }
+  ],
+  "references": [
+    {
+      "name": "Stefano Carrazza",
+      "reference": "[https://stefanocarrazza.com/](https://stefanocarrazza.com/)"
+    },
+    {
+      "name": "Stefano Forte",
+      "reference": "[https://pcforte.mi.infn.it/](https://pcforte.mi.infn.it/)"
+    },
+    {
+      "name": "Massimo D'Elia",
+      "reference": "[https://www.df.unipi.it/en/people/delia-massimo/](https://www.df.unipi.it/en/people/delia-massimo/)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Qibocal",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2023-01-01",
+      "url": "https://github.com/qiboteam/qibocal",
+      "roles": ["Developer"],
+      "entity": "CERN",
+      "type": "quantum computing"
+    },
+    {
+      "name": "Qibolab",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2023-01-01",
+      "url": "https://github.com/qiboteam/qibolab",
+      "roles": ["Developer"],
+      "entity": "CERN",
+      "type": "quantum computing"
+    },
+    {
+      "name": "Qibo",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2023-01-01",
+      "url": "https://github.com/qiboteam/qibo",
+      "roles": ["Developer"],
+      "entity": "CERN",
+      "type": "quantum computing"
+    },
+    {
+      "name": "Pineline",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2021-01-01",
+      "endDate": "2023-12-01",
+      "url": "https://github.com/NNPDF/pineline",
+      "roles": ["Designer", "Developer"],
+      "entity": "University of Milan",
+      "type": "high energy physics"
+    },
+    {
+      "name": "PineAPPL - PineAPPL is not an extension of APPL",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2021-01-01",
+      "endDate": "2023-12-01",
+      "url": "https://github.com/NNPDF/pineappl",
+      "roles": ["Developer"],
+      "entity": "University of Milan",
+      "type": "high energy physics"
+    },
+    {
+      "name": "Yadism - Yet Another DIS Module",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2019-11-01",
+      "endDate": "2023-12-01",
+      "url": "https://github.com/N3PDF/yadism",
+      "roles": ["Designer", "Developer"],
+      "entity": "University of Milan",
+      "type": "high energy physics"
+    },
+    {
+      "name": "EKO - Evolutionary Kernel Operators",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2019-11-01",
+      "endDate": "2023-12-01",
+      "url": "https://github.com/N3PDF/eko",
+      "roles": ["Designer", "Developer"],
+      "entity": "University of Milan",
+      "type": "high energy physics"
+    },
+    {
+      "name": "CDT2D - gauge fields",
+      "description": "Quantum Gravity simulations in CDT framework",
+      "highlights": [],
+      "keywords": [
+        "HPC",
+        "Lattice simulation",
+        "Monte Carlo",
+        "C++",
+        "Python",
+        "Cluster"
+      ],
+      "startDate": "2018-12-20",
+      "endDate": "2019-10-23",
+      "url": "https://github.com/AleCandido/CDT_2D/",
+      "roles": ["Designer", "Developer"],
+      "entity": "University of Pisa, Scuola Normale Superiore",
+      "type": "physics simulation"
+    }
+  ],
   "volunteer": [
     {
       "organization": "University of Milan",
@@ -74,212 +310,6 @@
       "highlights": [
         "Among the first remote courses of the pandemic era: Zoom lectures and community management through Google Groups"
       ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Scuola Normale Superiore",
-      "url": "https://www.sns.it/",
-      "area": "Physics",
-      "studyType": "Diploma di Licenza",
-      "startDate": "2014-09-15",
-      "endDate": "2020-07-06",
-      "gpa": " - 100 / 100 cum laude",
-      "courses": []
-    },
-    {
-      "institution": "University of Pisa",
-      "url": "https://www.unipi.it/",
-      "area": "(Theoretical) Physics",
-      "studyType": "Master",
-      "startDate": "2017-09-15",
-      "endDate": "2019-10-23",
-      "gpa": "29.92 / 30 - 110 / 110 cum laude",
-      "courses": []
-    },
-    {
-      "institution": "University of Pisa",
-      "url": "https://www.unipi.it/",
-      "area": "Physics",
-      "studyType": "Bachelor",
-      "startDate": "2014-09-15",
-      "endDate": "2017-06-15",
-      "gpa": "~29 / 30 - 110 / 110 cum laude",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "publications": [
-    {
-      "name": "Compact gauge fields on Causal Dynamical Triangulations: a 2D case study",
-      "publisher": "JHEP",
-      "releaseDate": "2021-04-19",
-      "url": "https://doi.org/10.1007/JHEP04(2021)184",
-      "summary": "Toy (2D) quantum gravity simulation with gauge fields, measuring the impact of dynamical geometry on gauge bosons and their feedback on geometry itself"
-    },
-    {
-      "name": "Can MSbar parton distributions be negative?",
-      "publisher": "JHEP",
-      "releaseDate": "2020-12-24",
-      "url": "https://doi.org/10.1007/JHEP11(2020)129",
-      "summary": "Prove of positivity of NLO PDF in the MSbar factorization scheme"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Python",
-      "level": "Master",
-      "keywords": [
-        "Programming",
-        "Packaging",
-        "Testing",
-        "Benchmarking",
-        "Numerical Calculation",
-        "Data Analysis",
-        "Plotting"
-      ]
-    },
-    {
-      "name": "Linux",
-      "level": "Advanced",
-      "keywords": ["OS", "Shell", "Configuration/Automation"]
-    },
-    {
-      "name": "Web Development",
-      "level": "Advanced",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Svelte",
-        "SvelteKit",
-        "React",
-        "GraphQL",
-        "Deno"
-      ]
-    },
-    {
-      "name": "Presentations",
-      "level": "Intermediate",
-      "keywords": ["Reveal.js", "Beamer", "Slipy", "Vim"]
-    },
-    {
-      "name": "Document Writing",
-      "level": "Intermediate",
-      "keywords": ["Latex", "Markdown", "Pandoc", "Vim"]
-    },
-    {
-      "name": "Rust",
-      "level": "Intermediate",
-      "keywords": [
-        "Programming",
-        "Web Development - Server",
-        "Web Development - Client"
-      ]
-    },
-    {
-      "name": "Machine Learning",
-      "level": "Beginner",
-      "keywords": ["Tensorflow", "Scikit-Learn", "Jupyter Notebooks", "Numpy"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Italian",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Good user"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Software",
-      "keywords": [
-        "HPC",
-        "Web development",
-        "Front-end",
-        "Back-end",
-        "Cloud",
-        "Distributed Applications"
-      ]
-    },
-    {
-      "name": "Books",
-      "keywords": ["Sci-fi", "Politics"]
-    },
-    {
-      "name": "Anime",
-      "keywords": [
-        "Shonen",
-        "Slice of Life",
-        "Seinen",
-        "School",
-        "Comedy",
-        "Magic",
-        "Romance",
-        "Sci-fi",
-        "Historical"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Stefano Forte",
-      "reference": "PhD supervisor: ask him"
-    },
-    {
-      "name": "Massimo D'Elia",
-      "reference": "Master thesis supervisor: ask him"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Yadism - Yet Another DIS Module",
-      "description": "",
-      "highlights": [],
-      "keywords": [],
-      "startDate": "2019-11-01",
-      "url": "https://github.com/N3PDF/yadism",
-      "roles": ["Designer", "Developer"],
-      "entity": "University of Milan",
-      "type": "high energy physics"
-    },
-    {
-      "name": "EKO - Evolutionary Kernel Operators",
-      "description": "",
-      "highlights": [],
-      "keywords": [],
-      "startDate": "2019-11-01",
-      "url": "https://github.com/N3PDF/eko",
-      "roles": ["Designer", "Developer"],
-      "entity": "University of Milan",
-      "type": "high energy physics"
-    },
-    {
-      "name": "CDT2D - gauge fields",
-      "description": "Quantum Gravity simulations in CDT framework",
-      "highlights": [
-        "Gauge fields introduction, measuring effect on and feedback from gravity (= geometry)",
-        "Working on graphs, invariants and topology",
-        "Dedicated Markov Chain Monte Carlo design, new moves in a Metropolis-Hastings algorithm",
-        "Master thesis project"
-      ],
-      "keywords": [
-        "HPC",
-        "Lattice simulation",
-        "Monte Carlo",
-        "C++",
-        "Python",
-        "Cluster"
-      ],
-      "startDate": "2018-12-20",
-      "endDate": "2019-10-23",
-      "url": "https://github.com/AleCandido/CDT_2D/",
-      "roles": ["Designer", "Developer"],
-      "entity": "University of Pisa, Scuola Normale Superiore",
-      "type": "physics simulation"
     }
   ],
   "meta": {

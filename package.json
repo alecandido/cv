@@ -9,12 +9,14 @@
   "type": "module",
   "scripts": {
     "render": "resumed render --theme jsonresume-theme-elegant",
-    "export": "node export.js"
+    "export": "node export.js",
+    "serve": "resume serve --theme elegant"
   },
   "dependencies": {
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.22.0",
     "puppeteer": "^21.7.0",
+    "resume-cli": "^3.0.8",
     "resumed": "^3.0.1"
   }
 }
