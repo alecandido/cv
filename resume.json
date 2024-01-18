@@ -37,7 +37,7 @@
     {
       "name": "CERN theory department",
       "position": "Research fellow",
-      "url": "%",
+      "url": "https://theory.cern/",
       "startDate": "2023-10-02",
       "summary": "",
       "highlights": []
@@ -176,10 +176,6 @@
     }
   ],
   "references": [
-    {
-      "name": "Stefano Carrazza",
-      "reference": "[https://stefanocarrazza.com/](https://stefanocarrazza.com/)"
-    },
     {
       "name": "Stefano Forte",
       "reference": "[https://pcforte.mi.infn.it/](https://pcforte.mi.infn.it/)"
