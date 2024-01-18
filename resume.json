@@ -214,7 +214,7 @@
     },
     {
       "name": "Qibo",
-      "description": "",
+      "description": "An open-source full stack API for quantum simulation and quantum hardware control.",
       "highlights": [],
       "keywords": [],
       "startDate": "2023-01-01",
