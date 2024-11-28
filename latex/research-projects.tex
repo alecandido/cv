@@ -1,121 +1,156 @@
 \section{Research Projects}
 \medskip
 
+\begin{samepage}
+\tlcventry{2023}{0}{\qibolab}{\githubsocialsymbol \ghurl{qiboteam/qibolab}}{}{}{
+     Quantum hardware module and drivers for Qibo.
+}
+\end{samepage}
+
+\begin{samepage}
+\tlcventry{2023}{0}{\qibocal}{\githubsocialsymbol \ghurl{qiboteam/qibocal}}{}{}{
+      Quantum calibration, characterization and validation module for Qibo.
+}
+\end{samepage}
+
+\begin{samepage}
+\tlcventry{2023}{0}{\qibo}{\githubsocialsymbol \ghurl{qiboteam/qibo}}{}{}{
+      Quantum calibration, characterization and validation module for Qibo.
+}
+\end{samepage}
+
+
 \subsection{\textbf{PhD}}
 
 \begin{samepage}
-\tlcventry{2019}{0}{\eko: Evolutionary Kernel Operator}{}{}{}{
-    The target was to create a new framework able to solve \dglap equations and
-    related problems (like the $\alpha_s$ running, required for PDF evolution).
-    \newline
-    In order to do this adopt more modern tools to improve
-    performances, we dedicated special care to specific case of the evolution
-    of a large number of PDFs (through reusability of the solution), and
-    lowered the barrier for newcomers and new feature implementations.
+\tlcventry{2019}{0}{\eko}{\githubsocialsymbol \ghurl{NNPDF/eko}}{}{}{
+    Evolutionary Kernel Operator
+    % The target was to create a new framework able to solve \dglap equations and
+    % related problems (like the $\alpha_s$ running, required for PDF evolution).
+    % \newline
+    % In order to do this adopt more modern tools to improve
+    % performances, we dedicated special care to specific case of the evolution
+    % of a large number of PDFs (through reusability of the solution), and
+    % lowered the barrier for newcomers and new feature implementations.
 }
-\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/eko}}
+% \cvitem{\githubsocialsymbol}{\ghurl{N3PDF/eko}}
 \end{samepage}
 
 \begin{samepage}
-\tlcventry{2019}{0}{\yadism: Yet Another DIS Module}{}{}{}{
-    Inspired by the same principles of \eko, \yadism is providing a complete
-    library of analytical expression and tabulated numbers for the DIS
-    coefficient functions (including massive and intrinsic contributions).
-    \newline
-    It also give access to various other features, like Target Mass Corrections
-    (TMC), several Flavor Number Schemes (FNS), different definitions of
-    reduced cross-sections, and so on.
+\tlcventry{2019}{0}{\yadism}{\githubsocialsymbol \ghurl{NNPDF/yadism}}{}{}{
+    Yet Another DIS Module
+    % Inspired by the same principles of \eko, \yadism is providing a complete
+    % library of analytical expression and tabulated numbers for the DIS
+    % coefficient functions (including massive and intrinsic contributions).
+    % \newline
+    % It also give access to various other features, like Target Mass Corrections
+    % (TMC), several Flavor Number Schemes (FNS), different definitions of
+    % reduced cross-sections, and so on.
 }
-\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/yadism}}
+% \cvitem{\githubsocialsymbol}{\ghurl{N3PDF/yadism}}
 \end{samepage}
 
 \begin{samepage}
-\tlcventry{2020}{0}{\banana: pQCD benchmarking framework}{}{}{}{
-    This tool has been abstracted from the first benchmarks implemented for
-    \eko and \yadism.
-    \newline
-    In order to compare several different programs on a heavy complex space of
-    inputs (high rank, with several very non-trivial combinations) we needed
-    more than a couple of scripts.
-    That is why we defined a common interface to our and external program, and
-    we created a tool able to manage runs and the resulting comparisons.
-    \newline
-    Many different functions are available to keep track and compare these
-    results, plot them, and extract non-trivial information. All the output is
-    perfectly reproducible, since the complete information about it is stored
-    alongside the results in a benchmark database (based on SQLite).
+\tlcventry{2020}{2023}{\banana}{\githubsocialsymbol \ghurl{N3PDF/banana}}{}{}{
+    pQCD benchmarking framework
+    % This tool has been abstracted from the first benchmarks implemented for
+    % \eko and \yadism.
+    % \newline
+    % In order to compare several different programs on a heavy complex space of
+    % inputs (high rank, with several very non-trivial combinations) we needed
+    % more than a couple of scripts.
+    % That is why we defined a common interface to our and external program, and
+    % we created a tool able to manage runs and the resulting comparisons.
+    % \newline
+    % Many different functions are available to keep track and compare these
+    % results, plot them, and extract non-trivial information. All the output is
+    % perfectly reproducible, since the complete information about it is stored
+    % alongside the results in a benchmark database (based on SQLite).
 }
-\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/banana}}
+% \cvitem{\githubsocialsymbol}{\ghurl{N3PDF/banana}}
 \end{samepage}
 
 \begin{samepage}
-\tlcventry{2020}{0}{\pineappl:  PineAPPL is not an extension of APPLgrid}{}{}{}{
-    Mostly contributed to the Python interface and packaging, in order to use
-    it as the backbone of the new PDF theory pipeline.
-    Development of the \eko integration, still for the same goal.
+\tlcventry{2020}{0}{\pineappl}{\githubsocialsymbol \ghurl{NNPDF/pineappl}}{}{}{
+    PineAPPL is not an extension of APPLgrid
+    % Mostly contributed to the Python interface and packaging, in order to use
+    % it as the backbone of the new PDF theory pipeline.
+    % Development of the \eko integration, still for the same goal.
 }
-\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/pineappl}}
+% \cvitem{\githubsocialsymbol}{\ghurl{N3PDF/pineappl}}
 \end{samepage}
 
 \begin{samepage}
-\tlcventry{2021}{0}{\pineko: \pineappl + \eko ─➤ fast theories}{}{}{}{
-    This package is the actual manager and handler used to compute the final
-    theory used for \pdf fitting.
-    I contributed to the design of the project, early development, review, and
-    the development of the CLI.
+\tlcventry{2021}{0}{\pinefarm}{\githubsocialsymbol \ghurl{NNPDF/pinefarm}}{}{}{
+     Generate PineAPPL grids from PineCards 
 }
-\cvitem{\githubsocialsymbol}{\ghurl{N3PDF/pineko}}
+% \cvitem{\githubsocialsymbol}{\ghurl{N3PDF/pineko}}
 \end{samepage}
 
 \begin{samepage}
-\tlcventry{2021}{0}{\rr: grid runcards for better reproducibility}{}{}{}{
-    Develop a runcard format and runner, to expose a unique interface to
-    several process calculation providers (Monte Carlo generators and non),
-    together with Christopher Schwan.
-    \newline
-    This project also (and arguably mainly) is based on the \pineappl format
-    and library, providing the process input for the rest of the theory
-    pipeline.
+\tlcventry{2021}{0}{\pineko}{\githubsocialsymbol \ghurl{NNPDF/pineko}}{}{}{
+    \pineappl + \eko ─➤ fast theories
+    % This package is the actual manager and handler used to compute the final
+    % theory used for \pdf fitting.
+    % I contributed to the design of the project, early development, review, and
+    % the development of the CLI.
 }
-\cvitem{\githubsocialsymbol}{\ghurl{NNPDF/runcards}}
+% \cvitem{\githubsocialsymbol}{\ghurl{N3PDF/pineko}}
 \end{samepage}
 
 \begin{samepage}
-\tlcventry{2022}{0}{\nnusf: neural interpolated neutrino structure functions}{}{}{}{
-    Provide a better data-driven model for low energy (i.e.\ $Q^2$) neutrino
-    structure functions, as an alternative to older models (e.g.\ Bodek-Yang).
+\tlcventry{2021}{2024}{\rr}{\githubsocialsymbol \ghurl{NNPDF/runcards}}{}{}{
+    grid runcards for better reproducibility
+    % Develop a runcard format and runner, to expose a unique interface to
+    % several process calculation providers (Monte Carlo generators and non),
+    % together with Christopher Schwan.
+    % \newline
+    % This project also (and arguably mainly) is based on the \pineappl format
+    % and library, providing the process input for the rest of the theory
+    % pipeline.
 }
-\cvitem{\githubsocialsymbol}{\ghurl{NNPDF/nnusf}}
+% \cvitem{\githubsocialsymbol}{\ghurl{NNPDF/runcards}}
 \end{samepage}
 
 \begin{samepage}
-\tlcventry{2022}{0}{\nnpdf: }{}{}{}{
-    Moderate contributions to the main \nnpdf project.
-    E.g.\ fixing and improving theory covariance matrix (th covmat) generation
-    and handling, or improving pseudo-data sampling in the presence of th covmat.
+\tlcventry{2022}{2023}{\nnusf}{\githubsocialsymbol \ghurl{NNPDF/nnusf}}{}{}{
+    neural interpolated neutrino structure functions
+    % Provide a better data-driven model for low energy (i.e.\ $Q^2$) neutrino
+    % structure functions, as an alternative to older models (e.g.\ Bodek-Yang).
 }
-\cvitem{\githubsocialsymbol}{\ghurl{NNPDF/nnpdf}}
+% \cvitem{\githubsocialsymbol}{\ghurl{NNPDF/nnusf}}
+\end{samepage}
+
+\begin{samepage}
+\tlcventry{2022}{0}{\nnpdf}{\githubsocialsymbol \ghurl{NNPDF/nnpdf}}{}{}{
+    Proton's structure determination using contemporary methods of artificial
+    intelligence.
+    % Moderate contributions to the main \nnpdf project.
+    % E.g.\ fixing and improving theory covariance matrix (th covmat) generation
+    % and handling, or improving pseudo-data sampling in the presence of th covmat.
+}
+% \cvitem{\githubsocialsymbol}{\ghurl{NNPDF/nnpdf}}
 \end{samepage}
 \bigskip
 
 \subsection{\textbf{Master}}
 
 \begin{samepage}
-\tlcventry{2018}{2020}{\cdt: Causal Dynamical Triangulations in 2
-    dimensions}{}{}{}{
-    We adopted the framework of Causal Dynamical Triangulations (CDT). 
-    It acts essentially as an ultraviolet regulator, defining the quantum
-    dynamics of gravity on a specific kind of piece-wise linear manifold, the
-    triangulation.
-    \newline
-    We introduced a gauge structure on these triangulations, generalizing the
-    pure gravity algorithm of CDT by the proper inclusion of operations defined
-    for static flat backgrounds, in a way independent on the dimension of
-    triangulations.
-    \newline
-    We also implement our algorithm and run the simulations, analyzing the
-    outputs and comparing them with the theoretical predictions.
+\tlcventry{2018}{2020}{\cdt}{\githubsocialsymbol \ghurl{AleCandido/CDT\_2D}}{}{}{
+    Causal Dynamical Triangulations with gauge fields, in two space-time dimensions.
+    % We adopted the framework of Causal Dynamical Triangulations (CDT). 
+    % It acts essentially as an ultraviolet regulator, defining the quantum
+    % dynamics of gravity on a specific kind of piece-wise linear manifold, the
+    % triangulation.
+    % \newline
+    % We introduced a gauge structure on these triangulations, generalizing the
+    % pure gravity algorithm of CDT by the proper inclusion of operations defined
+    % for static flat backgrounds, in a way independent on the dimension of
+    % triangulations.
+    % \newline
+    % We also implement our algorithm and run the simulations, analyzing the
+    % outputs and comparing them with the theoretical predictions.
 }
-\cvitem{\githubsocialsymbol}{\ghurl{AleCandido/CDT\_2D}}
+% \cvitem{\githubsocialsymbol}{\ghurl{AleCandido/CDT\_2D}}
 \end{samepage}
 \bigskip
